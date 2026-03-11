@@ -54,18 +54,16 @@ export type Contact = {
   external?: boolean;
 };
 
-// Icon sources:
-// - AWS: icon.icepanel.io (AWS Architecture Icons)
-// - Brands: cdn.simpleicons.org
-// - Favicons: icons.duckduckgo.com
+// Icon sources are vendored into `/public/icons` to avoid runtime dependencies on third-party CDNs.
+// - Brands: /public/icons/simpleicons
+// - AWS: /public/icons/aws
+// - Favicons: /public/icons/favicons
 // SimpleIcons default is the brand's native color.
-const SI = (slug: string) => `https://cdn.simpleicons.org/${slug}`;
-const SI_MONO = (slug: string, hex = "000") => `https://cdn.simpleicons.org/${slug}/${hex}`;
-const AWS = (category: string, name: string) =>
-  `https://icon.icepanel.io/AWS/svg/${encodeURIComponent(category)}/${encodeURIComponent(name)}.svg`;
-const FAV = (domain: string) => `https://icons.duckduckgo.com/ip3/${domain}.ico`;
-const FAV_GOOGLE = (domain: string, size = 64) =>
-  `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=${size}`;
+const SI = (slug: string) => `/icons/simpleicons/${slug}.svg`;
+const SI_MONO = (slug: string, hex = "000") => `/icons/simpleicons/${slug}-${hex}.svg`;
+const AWS = (category: string, name: string) => `/icons/aws/${category}/${name}.svg`;
+const FAV = (domain: string) => `/icons/favicons/${domain}.ico`;
+const FAV_GOOGLE = (domain: string, size = 64) => `/icons/favicons/${domain}-${size}.png`;
 
 export const portfolio = {
   person: {
@@ -170,7 +168,7 @@ export const portfolio = {
       period: "Jan 2026 - Present",
       company: "VideoSDK",
       // Use the real site favicon (sharper than generic proxies).
-      companyIconSrc: "https://videosdk.live/favicon/favicon-32x32.png",
+      companyIconSrc: "/icons/favicons/videosdk.live-32x32.png",
       companyIconAlt: "VideoSDK favicon",
       companyMeta: "SDE-2 - Full-time",
       role: "Software Development Engineer II",
@@ -240,7 +238,7 @@ export const portfolio = {
       name: "VideoSDK Dashboard",
       href: "https://app.videosdk.live",
       hrefLabel: "app.videosdk.live",
-      iconSrc: "https://app.videosdk.live/favicon.ico",
+      iconSrc: "/icons/favicons/app.videosdk.live.ico",
       iconAlt: "VideoSDK dashboard favicon",
       description:
         "Developer dashboard for VideoSDK's real-time video infra. Rebuilt core Next.js UI with REST APIs, adaptive pagination, Intersection Observer subscriptions.",

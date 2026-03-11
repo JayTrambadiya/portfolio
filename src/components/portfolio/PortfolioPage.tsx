@@ -41,8 +41,8 @@ function ExternalArrow() {
 export default function PortfolioPage() {
   const p = portfolio.person;
   // SimpleIcons currently doesn't ship LinkedIn; use a crisp favicon instead.
-  const linkedInIcon = "https://www.google.com/s2/favicons?domain=linkedin.com&sz=64";
-  const gitHubIcon = "https://cdn.simpleicons.org/github/000";
+  const linkedInIcon = "/icons/favicons/linkedin.com-64.png";
+  const gitHubIcon = "/icons/simpleicons/github-000.svg";
 
   return (
     <>
@@ -80,7 +80,7 @@ export default function PortfolioPage() {
           <div className="hbtns">
             <a href={`mailto:${p.email}`} className="btn bp">
               <span className="icbox icbox-btn" aria-hidden="true">
-                <Icon className="btn-ic" src="https://cdn.simpleicons.org/gmail" alt="" />
+                <Icon className="btn-ic" src="/icons/simpleicons/gmail.svg" alt="" />
               </span>
               Get in touch
             </a>
