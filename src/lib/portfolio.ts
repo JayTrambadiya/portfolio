@@ -152,6 +152,7 @@ export const portfolio = {
       chips: [
         { label: "Google Analytics", iconSrc: SI("googleanalytics"), iconAlt: "Google Analytics" },
         { label: "GTM", iconSrc: SI("googletagmanager"), iconAlt: "Google Tag Manager" },
+        { label: "Mixpanel", iconSrc: SI("mixpanel"), iconAlt: "Mixpanel" },
         { label: "Meta Pixel CAPI", iconSrc: SI("meta"), iconAlt: "Meta" },
         { label: "MoEngage" },
         {
@@ -200,6 +201,21 @@ export const portfolio = {
   ] satisfies Experience[],
 
   projects: [
+    {
+      name: "Foxtale",
+      href: "https://foxtale.in/",
+      hrefLabel: "foxtale.in",
+      iconSrc: FAV("foxtale.in"),
+      iconAlt: "Foxtale favicon",
+      description:
+        "Shopify-based backend with Mixpanel event tracking for granular analytics. Migrated the storefront from Shopify to a custom Next.js frontend, integrated Strapi as a headless CMS, and implemented end-to-end funnel tracking (PDP, ATC, Checkout, Purchase) to support CRO.",
+      stack: [
+        { label: "Next.js", iconSrc: SI_MONO("nextdotjs"), iconAlt: "Next.js", invertOnDark: true },
+        { label: "Shopify", iconSrc: SI("shopify"), iconAlt: "Shopify" },
+        { label: "Mixpanel", iconSrc: SI("mixpanel"), iconAlt: "Mixpanel" },
+        { label: "Strapi CMS", iconSrc: SI("strapi"), iconAlt: "Strapi" },
+      ],
+    },
     {
       name: "Buywow",
       href: "https://www.buywow.in",
