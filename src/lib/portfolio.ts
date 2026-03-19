@@ -77,7 +77,7 @@ export const portfolio = {
     email: "jaytrambadiya21@gmail.com",
     phone: "+91 7574013835",
     linkedin: "https://www.linkedin.com/in/jay-trambadiya-786796206/",
-    github: "https://github.com/JayTrambadiya",
+    github: "https://github.com/JayTrambadiya/portfolio?tab=readme-ov-file#-hey-im-jay-trambadiya",
   },
 
   nav: [
