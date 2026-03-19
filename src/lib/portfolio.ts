@@ -310,7 +310,7 @@ export const portfolio = {
     {
       label: "GitHub",
       value: "View Profile ↗",
-      href: "https://github.com/",
+      href: "https://github.com/JayTrambadiya/portfolio?tab=readme-ov-file#-hey-im-jay-trambadiya",
       iconSrc: SI_MONO("github"),
       iconAlt: "GitHub",
       invertOnDark: true,
