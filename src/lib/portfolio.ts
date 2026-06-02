@@ -88,7 +88,7 @@ export const portfolio = {
   ],
 
   stats: [
-    { count: 2, suffix: "+", label: "Years experience" },
+    { count: 3, suffix: "+", label: "Years experience" },
     { count: 60, suffix: "%", label: "Hosting cost cut" },
     { count: 3, suffix: "+", label: "Production apps" },
     { count: 8.9, suffix: "", label: "B.Tech CGPA" },
@@ -181,7 +181,7 @@ export const portfolio = {
       tags: ["Next.js", "Node.js", "Express.js", "REST APIs"],
     },
     {
-      period: "Oct 2023 - Dec 2025",
+      period: "June 2023 - Dec 2025",
       company: "DevX Technology",
       companyIconSrc: FAV("devxlabs.ai"),
       companyIconAlt: "DevX favicon",
