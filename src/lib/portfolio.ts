@@ -110,7 +110,9 @@ export const portfolio = {
       category: "Backend",
       chips: [
         { label: "Node.js", iconSrc: SI("nodedotjs"), iconAlt: "Node.js" },
+        { label: "Python", iconSrc: SI("python"), iconAlt: "Python" },
         { label: "Express.js", iconSrc: SI_MONO("express"), iconAlt: "Express", invertOnDark: true },
+        { label: "FastAPI", iconSrc: SI("fastAPI"), iconAlt: "FastAPI" },
         { label: "GraphQL", iconSrc: SI("graphql"), iconAlt: "GraphQL" },
         { label: "PostgreSQL", iconSrc: SI("postgresql"), iconAlt: "PostgreSQL" },
         { label: "DynamoDB", iconSrc: AWS("Database", "DynamoDB"), iconAlt: "DynamoDB" },
