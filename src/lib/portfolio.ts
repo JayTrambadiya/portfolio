@@ -176,9 +176,10 @@ export const portfolio = {
       companyMeta: "SDE-2 - Full-time",
       role: "Software Development Engineer II",
       bullets: [
-        "Revamped the developer dashboard in Next.js for improved performance and UX.",
-        "Built and integrated REST APIs via Node.js + Express.js for new backend dashboard features.",
-        "Fixed meeting pagination and implemented adaptive Intersection Observer subscriptions.",
+        "Worked with FFmpeg-based media processing within VideoSDK's recording pipeline for audio/video capture, format conversion, and stream packaging into HLS segments for both live and playback URLs.",
+        "Developed and integrated REST APIs for Voice AI agents with deployment option on dashboard using Express.js backend.",
+        "Resolved issues in meeting pagination and implemented adaptive subscription using Intersection Observer, optimizing frontend performance and resource usage",
+        "Revamped and enhanced an existing dashboard built with Next.js, improving performance and usability."
       ],
       tags: ["Next.js", "Node.js", "Express.js", "REST APIs"],
     },
@@ -228,11 +229,11 @@ export const portfolio = {
         "Full-stack D2C e-commerce. Custom admin panel, memberships, loyalty cashback, Spin the Wheel gamification, and Cloudflare migration with SQS event-driven order workflows.",
       stack: [
         { label: "Next.js", iconSrc: SI_MONO("nextdotjs"), iconAlt: "Next.js", invertOnDark: true },
-        { label: "TypeScript", iconSrc: SI("typescript"), iconAlt: "TypeScript"},
-        { label: "Redux", iconSrc: SI("redux"), iconAlt: "Redux"},
-        { label: "Cloudflare", iconSrc: SI("cloudflare"), iconAlt: "Cloudflare"},
-        { label: "DynamoDB", iconSrc: AWS("Database", "DynamoDB"), iconAlt: "DynamoDB"},
-        { label: "SQS", iconSrc: AWS("App-Integration", "Simple-Queue-Service"), iconAlt: "Amazon SQS"},
+        { label: "TypeScript", iconSrc: SI("typescript"), iconAlt: "TypeScript" },
+        { label: "Redux", iconSrc: SI("redux"), iconAlt: "Redux" },
+        { label: "Cloudflare", iconSrc: SI("cloudflare"), iconAlt: "Cloudflare" },
+        { label: "DynamoDB", iconSrc: AWS("Database", "DynamoDB"), iconAlt: "DynamoDB" },
+        { label: "SQS", iconSrc: AWS("App-Integration", "Simple-Queue-Service"), iconAlt: "Amazon SQS" },
       ],
     },
     {
@@ -246,9 +247,9 @@ export const portfolio = {
         "D2C beauty platform. Cupid Coins loyalty, ISR + dynamic caching, 10K+ URL redirects, SEO sitemaps, full funnel tracking - Meta Pixel, MoEngage & GA4.",
       stack: [
         { label: "Next.js", iconSrc: SI_MONO("nextdotjs"), iconAlt: "Next.js", invertOnDark: true },
-        { label: "GTM", iconSrc: SI("googletagmanager"), iconAlt: "Google Tag Manager"},
-        { label: "Meta Pixel", iconSrc: SI("meta"), iconAlt: "Meta"},
-        { label: "GA4", iconSrc: SI("googleanalytics"), iconAlt: "Google Analytics"},
+        { label: "GTM", iconSrc: SI("googletagmanager"), iconAlt: "Google Tag Manager" },
+        { label: "Meta Pixel", iconSrc: SI("meta"), iconAlt: "Meta" },
+        { label: "GA4", iconSrc: SI("googleanalytics"), iconAlt: "Google Analytics" },
         { label: "Unicommerce" },
       ],
     },
@@ -262,7 +263,7 @@ export const portfolio = {
         "Developer dashboard for VideoSDK's real-time video infra. Rebuilt core Next.js UI with REST APIs, adaptive pagination, Intersection Observer subscriptions.",
       stack: [
         { label: "Next.js", iconSrc: SI_MONO("nextdotjs"), iconAlt: "Next.js", invertOnDark: true },
-        { label: "Node.js", iconSrc: SI("nodedotjs"), iconAlt: "Node.js"},
+        { label: "Node.js", iconSrc: SI("nodedotjs"), iconAlt: "Node.js" },
         { label: "Express.js", iconSrc: SI_MONO("express"), iconAlt: "Express", invertOnDark: true },
         { label: "REST APIs" },
       ],
