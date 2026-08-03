@@ -73,7 +73,7 @@ export const portfolio = {
     status: "Open to opportunities",
     title: "Full-Stack Engineer",
     tagline:
-      "Full-stack engineer with 3 years of experience in React, Next.js, Node.js, and AWS. Passionate about building scalable products and exploring AI-driven software engineering.",
+      "Building Scalable Products with Modern Web Technologies.",
     email: "jaytrambadiya21@gmail.com",
     phone: "+91 7574013835",
     linkedin: "https://www.linkedin.com/in/jay-trambadiya-786796206/",
