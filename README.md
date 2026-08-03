@@ -17,7 +17,7 @@
 
 ## 🚀 About Me
 
-Full-Stack Engineer with **~3 years** of hands-on experience building scalable, production-grade web applications. I specialize in modern cloud-native architecture with **AWS serverless** and **Next.js** frontend optimization. 
+Full-Stack Engineer with **~ 3 years** of hands-on experience building scalable, production-grade web applications. I specialize in modern cloud-native architecture with **AWS serverless** and **Next.js** frontend optimization. 
 
 **Passionate about:**
 - 🏗️ System design & scalable architecture
