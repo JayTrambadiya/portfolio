@@ -73,7 +73,7 @@ export const portfolio = {
     status: "Open to opportunities",
     title: "Full-Stack Engineer",
     tagline:
-      "Full-Stack Engineer - Next.js, AWS Serverless & Cloudflare edge. Built scalable systems for India's leading D2C brands.",
+      "Full-stack engineer with 3 years of experience in React, Next.js, Node.js, and AWS. Passionate about building scalable products and exploring AI-driven software engineering.",
     email: "jaytrambadiya21@gmail.com",
     phone: "+91 7574013835",
     linkedin: "https://www.linkedin.com/in/jay-trambadiya-786796206/",
@@ -132,6 +132,11 @@ export const portfolio = {
         { label: "CloudFront", iconSrc: AWS("Networking-Content-Delivery", "CloudFront"), iconAlt: "Amazon CloudFront" },
         { label: "API Gateway", iconSrc: AWS("App-Integration", "API-Gateway"), iconAlt: "Amazon API Gateway" },
         { label: "AWS SAM", iconSrc: AWS("Management-Governance", "CloudFormation"), iconAlt: "AWS CloudFormation" },
+        {
+          label: "SES - Pinpoint",
+          iconSrc: AWS("Business-Applications", "Simple-Email-Service"),
+          iconAlt: "Amazon SES",
+        },
       ],
     },
     {
@@ -157,11 +162,6 @@ export const portfolio = {
         { label: "Mixpanel", iconSrc: SI("mixpanel"), iconAlt: "Mixpanel" },
         { label: "Meta Pixel CAPI", iconSrc: SI("meta"), iconAlt: "Meta" },
         { label: "MoEngage" },
-        {
-          label: "SES - Pinpoint",
-          iconSrc: AWS("Business-Applications", "Simple-Email-Service"),
-          iconAlt: "Amazon SES",
-        },
       ],
     },
   ] satisfies SkillCategory[],
