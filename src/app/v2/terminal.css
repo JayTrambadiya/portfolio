@@ -1,0 +1,129 @@
+.terminal-root {
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  font-family: var(--font-jbm), "JetBrains Mono", ui-monospace, monospace;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* Dark theme: override the design tokens within the terminal subtree so every
+   theme utility (bg-surface, text-primary, border-primary, ...) flips at once. */
+.terminal-root.dark {
+  --color-background: #0d1117;
+  --color-on-background: #e6e6e6;
+  --color-surface: #0d1117;
+  --color-on-surface: #e6e6e6;
+  --color-surface-dim: #070a0f;
+  --color-surface-bright: #1b2129;
+  --color-surface-container-lowest: #090c11;
+  --color-surface-container-low: #11161d;
+  --color-surface-container: #151b23;
+  --color-surface-container-high: #1a212a;
+  --color-surface-container-highest: #212a35;
+  --color-surface-variant: #2a3441;
+  --color-on-surface-variant: #aab3c0;
+  --color-primary: #e8e8e8;
+  --color-on-primary: #111111;
+  --color-primary-container: #e8e8e8;
+  --color-on-primary-container: #333333;
+  --color-primary-fixed: #d9d9d9;
+  --color-primary-fixed-dim: #b3b3b3;
+  --color-on-primary-fixed: #1a1a1a;
+  --color-on-primary-fixed-variant: #4d4d4d;
+  --color-secondary: #a8b8d8;
+  --color-on-secondary: #1b2433;
+  --color-secondary-container: #2c3a52;
+  --color-on-secondary-container: #c3d0e8;
+  --color-secondary-fixed: #d6e2f5;
+  --color-secondary-fixed-dim: #b3c1db;
+  --color-on-secondary-fixed: #1a2536;
+  --color-on-secondary-fixed-variant: #3c4a61;
+  --color-tertiary: #e8e8e8;
+  --color-on-tertiary: #141414;
+  --color-tertiary-container: #2a2a2a;
+  --color-on-tertiary-container: #a8a8a8;
+  --color-tertiary-fixed: #d9d9d9;
+  --color-tertiary-fixed-dim: #b0b0b0;
+  --color-on-tertiary-fixed: #1a1a1a;
+  --color-on-tertiary-fixed-variant: #454545;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  --color-outline: #8b939e;
+  --color-outline-variant: #3a414c;
+  --color-inverse-surface: #e6e6e6;
+  --color-inverse-on-surface: #262c36;
+  --color-inverse-primary: #6b6b6b;
+  --color-surface-tint: #8b8b8b;
+  --color-border: #3f4757;
+}
+
+/* Neutralize element-level styles from globals.css (@layer base) that would
+   otherwise leak in; kept inside @layer base so Tailwind utilities still win. */
+@layer base {
+  .terminal-root section {
+    padding: 0;
+    border-top: 0;
+  }
+  .terminal-root nav {
+    backdrop-filter: none;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  vertical-align: middle;
+}
+
+.grid-bg {
+  background-image: linear-gradient(
+      to right,
+      color-mix(in srgb, var(--color-primary) 12%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--color-primary) 12%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 40px 40px;
+}
+
+.hard-border {
+  border: 1px solid var(--color-border);
+}
+
+.hard-border-heavy {
+  border: 2px solid var(--color-border);
+}
+
+.cell-hover {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.1s ease, color 0.1s ease;
+}
+.cell-hover:hover {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--color-primary);
+}
+
+.terminal-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.terminal-scroll::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--color-primary) 8%, transparent);
+}
+.terminal-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}

@@ -114,7 +114,7 @@ export default function PortfolioPage() {
       <div className="wrap">
         <section id="skills">
           <div className="r">
-            <div className="slabel">// Stack</div>
+            <div className="slabel">{"// Stack"}</div>
             <div className="stitle">Technology</div>
           </div>
           <div className="r2">
@@ -145,7 +145,7 @@ export default function PortfolioPage() {
 
         <section id="experience">
           <div className="r">
-            <div className="slabel">// Experience</div>
+            <div className="slabel">{"// Experience"}</div>
             <div className="stitle">Work History</div>
           </div>
           <div className="exps r2">
@@ -187,7 +187,7 @@ export default function PortfolioPage() {
 
         <section id="projects">
           <div className="r">
-            <div className="slabel">// Projects</div>
+            <div className="slabel">{"// Projects"}</div>
             <div className="stitle">Proof of Work</div>
           </div>
           <div className="pgrid r2">
@@ -227,7 +227,7 @@ export default function PortfolioPage() {
 
         <section id="education">
           <div className="r">
-            <div className="slabel">// Education</div>
+            <div className="slabel">{"// Education"}</div>
             <div className="stitle">Background</div>
           </div>
           <div className="r2">
@@ -248,7 +248,7 @@ export default function PortfolioPage() {
 
         <section id="contact">
           <div className="r">
-            <div className="slabel">// Contact</div>
+            <div className="slabel">{"// Contact"}</div>
             <div className="stitle">Get In Touch</div>
           </div>
           <div className="crow r2">
