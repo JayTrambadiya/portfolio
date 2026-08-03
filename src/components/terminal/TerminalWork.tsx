@@ -74,7 +74,7 @@ export default function TerminalWork() {
             </div>
           </div>
         ))}
-        <div className="col-span-12 lg:col-span-7 hard-border bg-primary-container relative h-48 lg:h-auto overflow-hidden">
+        <div className="col-span-12 lg:col-span-7 hard-border bg-primary-container relative h-84 lg:h-auto overflow-hidden">
           <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
             <div className="mb-4">
               <TerminalIcon name="videocam" className="text-on-primary text-[48px]" />

@@ -46,6 +46,8 @@ export default function TerminalDebug() {
           </a>
           <a
             href={debug.terminal.viewGithub}
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-border px-2 py-1 hover:bg-primary hover:text-on-primary transition-colors"
           >
             {debug.terminal.viewGithubLabel}

@@ -3,7 +3,7 @@ export const terminalImages = {
 };
 
 export const terminalNav = {
-  brand: "JAY_TRAMBADIYA_SYS_v1.0",
+  brand: "JAY_TRAMBADIYA_V1.1",
   status: "STATUS: OPERATIONAL",
   uptime: "UPTIME: 99.9%",
   icons: ["terminal", "settings_ethernet"],
@@ -172,7 +172,7 @@ export const debug = {
     ],
     sayHello: "mailto:jaytrambadiya21@gmail.com",
     sayHelloLabel: "SAY_HELLO",
-    viewGithub: "#",
+    viewGithub: "https://github.com/JayTrambadiya",
     viewGithubLabel: "VIEW_GITHUB",
     note: "Currently open to freelance engineering projects or technical consulting regarding cloud migrations and edge architecture.",
   },
